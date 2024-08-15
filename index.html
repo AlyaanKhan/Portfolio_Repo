@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Alyaan - Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/your-photo.jpg" alt="Profile Picture" class="profile-pic">
+                <h1>Muhammad Alyaan Amir</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Hi, I'm Muhammad Alyaan</h2>
+            <p>A Passionate Developer</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="images/your-photo.jpg" alt="Your Photo">
+            <div class="about-text">
+                <p>I am Muhammad Alyaan, a passionate and dedicated Computer Science graduate with a strong foundation in software development and artificial intelligence. My journey in the world of programming has been shaped by the creation of diverse and challenging projects, ranging from a Snake game developed with Pygame to a sophisticated web application named Dream Oracle Textgram, which converts text into images using AI and the Stack GAN model. My expertise spans across various technologies including Python, React.js, Flask, and SQL databases, with a deep interest in generative AI and machine learning. In addition to my technical skills, I have experience teaching web development and mobile app development at Riphah International College, and I'm actively involved in freelancing, where I work on web and Python projects. My goal is to continue pushing the boundaries of innovation in technology, creating user-friendly and secure applications that make a difference.</p>
+                <a href="Muhammad-ALyaan-CV.pdf" class="btn">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="images/project-1.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>Dream Oracle Text-Gram using Artificial Intelligence</h3>
+                    <p>I developed Dream Oracle Text gram, a web application leveraging Artificial Intelligence and the Stack GAN model to transform text into images. The project features a robust frontend in React.js and a backend in Flask Python. Core functionalities include text-to-image conversion, image liking and disliking, and history saving for generated images. I integrated secure payment processing using Stripe and implemented Google Firebase for authentication to ensure user privacy. A credit system allows users to purchase credits for generating images, and privacy measures restrict access to unauthenticated users. This project demonstrates my skills in AI, web development, and secure, user-friendly application design.</p>
+                    <a href="https://github.com/AlyaanKhan/Dreamoracle" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/project-2.png" alt="Project 2">
+                <div class="project-info">
+                    <h3>Customer Order Management System (COMS) Using Sqlite3</h3>
+                    <p>Customer Management: Add and store customer details, ensuring easy retrieval and updates. Product Management: Manage product inventory with attributes like name, description, price, and stock quantity. Order Processing: Place orders by linking customer IDs with product IDs and specifying quantities. Reporting: Generate detailed order reports including customer names, product names, quantities, and total bills. Data Export: Export customer, product, and order data to CSV files for backup or integration with other systems. The system includes a command-line interface for user interaction, allowing users to perform tasks such as adding customers, products, placing orders, generating reports, and exporting data seamlessly. The main entry point is the user_interface_menu(), which initializes the database connection and handles user inputs through an intuitive menu. COMS enhances efficiency and accuracy in managing orders, making it an essential tool for businesses looking to optimize their operations.</p>
+                    <a href="https://github.com/AlyaanKhan/Python-Projects/tree/main/CustomerManagemnt" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/project-3.jpeg" alt="Project 3">
+                <div class="project-info">
+                    <h3>Ping Pong Using Python Tkinter</h3>
+                    <p>This Python program creates a simple Ping Pong game using the tkinter library. The game features a window with a black background, a white ball, and two white paddles. The ball moves around the screen, bouncing off the edges and the paddles. Players can control the left paddle using the up and down arrow keys. The ball's movement and collision with the paddles and screen edges are managed in the PingPong class, which handles game updates and interactions.</p>
+                    <a href="https://github.com/AlyaanKhan/Python-Projects/blob/main/Ping_pong.py" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/project-4.png" alt="Project 4">
+                <div class="project-info">
+                    <h3>K-Means Clustering on Mall Customers Dataset</h3>
+                    <p>I developed a project on K-Means Clustering, where I analyzed and visualized customer data using Python. The project involved exploring a dataset of mall customers to understand features like age, annual income, and spending score. I utilized Matplotlib and Seaborn for data visualization, creating histograms, count plots, and scatter plots to reveal relationships between variables. For model building, I applied the K-Means algorithm to cluster customers based on annual income and spending score, using the elbow method to find the optimal number of clusters. The results were visualized with cluster plots and centroids, offering valuable insights into customer segmentation. Key libraries used included Pandas, Matplotlib, Seaborn, and Scikit-learn. This project was a great chance to apply machine learning techniques to real-world data and uncover actionable insights.</p>
+                    <a href="https://github.com/AlyaanKhan/PRODIGY_ML_02/tree/master" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/muhammad-alyaan-amir-2607ba31a/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/AlyaanKhan"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Muhammad Alyaan Amir. All Rights Reserved.</p>
+    </footer>
+
+    <!-- EmailJS Integration -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        emailjs.init('I6fUVZbvMpJ0SaQad');  // Replace 'YOUR_PUBLIC_KEY' with your actual EmailJS public key
+    </script>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
